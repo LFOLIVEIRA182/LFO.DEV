@@ -1,0 +1,76 @@
+/*ESTILO GERAL*/
+a:link{text-decoration: none;}
+
+ul{
+  list-style-type: none;
+  font-size: 18px;
+  font-family:  'Lucida Grande', 'Lucida Sans Regular', 'Lucida Sans', sans-serif;
+}
+
+p{
+  font-family:  'Lucida Grande', 'Lucida Sans Regular', 'Lucida Sans', sans-serif;
+  font-size: medium;
+}
+
+svg:hover path {
+  fill: #21f0e5;
+}
+
+
+/*Botões configuração*/
+
+#btn-conf:hover{
+  color:#21f0e5;
+}
+
+
+
+
+
+
+/*ESTILO ANIMADO INICIO*/
+.ml16 {
+  color: #402d2d;
+  padding: 30px 0;
+  font-weight: 760;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  overflow: hidden;
+}
+
+.ml16 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  @media (min-width: 375px) and (max-width:414px) { 
+    .ml16 .letter{
+      display: inline;
+      font-size: 16px;
+    }
+  }
+
+  #tecicons i:hover{
+     background-color: #21f0e5; 
+
+    transition: 0.5s;
+    
+    opacity: 0.7;
+    
+    }
+    /*ESTILO ANIMADO FIM*/
